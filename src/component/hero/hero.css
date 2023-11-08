@@ -1,0 +1,137 @@
+.hero-container{
+    background: rgb(20, 18, 18);
+    height: 100%;
+    padding: 40px 0;
+}
+
+.header h1{
+    transition: all 3s ease-in;
+}
+.hero-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.hero-left{
+    width: 50%;
+    float: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-left .header{
+    color: rgb(182, 181, 181);
+    font-size: 17px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    z-index: 2;
+    text-shadow: 1px 1px 1px rgb(20, 18, 18);
+}
+.hero-left .header p{
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: small;
+}
+.hero-left .orange{
+    height: 100px;
+    width: 103px;
+    background: orange;
+    display: flex;
+    position: absolute;
+    border-radius: 60% 0% 50% 10%;
+    z-index: -1;
+}
+.hero-left span{
+    color: rgb(20, 18, 18);
+    /* padding-left: 20px; */
+    letter-spacing: 1.5px;
+    text-shadow: 1px -1px 1px orange;
+}
+
+.hero-left .search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.829);
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+.hero-left .search input{
+    height: 100%;
+    width: 80%;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.hero-left .search i{
+    color: rgb(41, 41, 177);
+}
+.hero-left .search button{
+    padding: 0.4rem 1.2rem;
+}
+.hero-right{
+    width: 50%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.hero-right img{
+    width: 90%;
+    z-index: 2;
+}
+
+.hero-left .flex-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-left .flex-center .one{
+    margin: 0 30px;
+    line-height: 30px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+.hero-left .flex-center .one span{
+    color: orange;
+}
+.hero-left .flex-center strong{
+    font-weight: 100;
+    color: rgb(182, 181, 181);
+}
+.hero-left .flex-center p{
+    color: white;
+    font-size: 22px;
+}
+
+@media (max-width: 750px){
+    .hero-wrapper{
+        flex-direction: column;
+    }
+    .hero-left{
+        width: 100%;
+    }
+
+    .hero-right{
+        width: 100%;
+    }
+    .hero-left .search{
+        width: 80%;
+        margin: 20px 0;
+    }
+}
+

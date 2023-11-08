@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.button {
+   font-weight: 500;
+   padding: 0.6rem 1.4rem;
+   color: white;
+   background: rgb(41, 41, 177);
+   border: none;
+   outline: none;
+   border-radius: 4px;
+   transition: all 0.3s ease-in;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.app{
+  position: relative;
+  overflow-x: clip;
+}
+
+.app>:nth-child(1){
+  background: rgb(20, 18, 18);
+  position: relative;
+}
+.white-gradient{
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  background: rgb(60, 105, 255);
+  filter: blur(100px);
+  border-radius: 50%;
+}
+

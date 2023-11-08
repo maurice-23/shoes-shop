@@ -1,0 +1,143 @@
+.contact-container{
+    background: #fdfdfd;
+    height: 100%;
+    padding: 40px 0;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.contact-left{
+    width: 50%;
+    float: left;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.contact-right{
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 40px;
+    color: black;
+}
+
+.contact-left h4{
+    color: orange;
+    font-size: 20px;
+}
+
+.contact-left h3{
+    color: darkblue;
+    font-size: 30px;
+    margin: 15px 0;
+}
+.contact-left .accordionItem{
+    padding: 20px 0;
+    outline: none;
+    cursor: pointer;
+}
+.contact-left .ac-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 6px 6px 0 0;
+    outline: none;
+    align-items: center;
+    align-content: center;
+    color: orange;
+}
+
+
+.contact-left .decs{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.contact-left .card {
+    border: 1px solid blue;
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.6s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.contact-left .card:hover{
+    transform: scale(1.1);
+}
+
+.contact-left .card .head{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+
+.contact-left .card .head i{
+    background: rgba(158, 157, 157, 0.432);
+    padding: 8px;
+    border-radius: 10px;
+    color: rgb(46, 46, 209);
+}
+.contact-left .card .top{
+    color: #22222296;
+}
+.contact-left .card .top span{
+    font-weight: 600;
+    color: #222222c2;
+}
+
+.contact-left .card .top{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-left .button{
+    padding: 0.3rem 0.4rem;
+    width: 80%;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+@media (max-width: 750px){
+    .contact-wrapper{
+        flex-direction: column;
+    }
+    .contact-left{
+        width: 100%;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .card-container .card{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .contact-right{
+        display: none;
+    }
+}
+
+

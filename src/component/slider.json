@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Air force I",
+        "price": "18,000",
+        "detail": "A new best brand of air force one with better stickers",
+        "image": "for2.png"
+    },
+    {
+        "name": "Nike Zoom Flight 98 The Grove",
+        "price": "38,000",
+        "detail": " explore Nike Zoom Flight 98 The Grove",
+        "image": "Nike Zoom Flight 98 The Glove.png"
+    },
+    {
+        "name": "Nike Air Penny I",
+        "price": "18,000",
+        "detail": " explore Nike Air Penny I that is very strong",
+        "image": "Nike Air Penny I.png"
+    },
+    {
+        "name": "LeBron 12",
+        "price": "35,000",
+        "detail": " this is new LeBron 12 with in its better look",
+        "image": "LeBron 12.png"
+    },
+    {
+        "name": "Air Jordan XVII",
+        "price": "27,000",
+        "detail": " explore a new Air Jordan XVII",
+        "image": "Air Jordan XVII.png"
+    },
+    {
+        "name": "Jordan XI",
+        "price": "19,500",
+        "detail": "This is Air Jordan XI of best colors black & white",
+        "image": "Jordan XI.png"
+    },
+    {
+        "name": "Adidas Mutomba",
+        "price": "27,000",
+        "detail": "this is the best of Adidas Mutomba",
+        "image": "adidas mutombo.png"
+    },
+    {
+        "name": "Converse",
+        "price": "16,000",
+        "detail": "this is the best of Converse",
+        "image": "converse.png"
+    },
+    {
+        "name": " Air Jordan XII",
+        "price": "31,000",
+        "detail": "Check out this amazing shoes of Air Jordan XII",
+        "image": "Air Jordan XII.png"
+    },
+    {
+        "name": "Kobe 9 Elite",
+        "price": "21,000",
+        "detail": "Check out this long shoes of Kobe 9 Elite",
+        "image": "Kobe 9 Elite.png"
+    },
+    {
+        "name": "Air Jordan 1",
+        "price": "15,232",
+        "detail": "A shoe made by jordan in 2023 with more features",
+        "image": "j11.png"
+    },
+    {
+        "name": "Jordan IV",
+        "price": "27,100",
+        "detail": "This jordan 4 is different to other jordans you have seen before try it",
+        "image": "img1.png"
+    },
+    {
+        "name": "Sport shoe",
+        "price": "10,000",
+        "detail": "A nike sport shoe you can put on when doing any kind of sport",
+        "image": "marked.png"
+    },
+    {
+        "name": "Air force I",
+        "price": "18,200",
+        "detail": "A new best brand of air force one with more experiences of design",
+        "image": "for1.png"
+    },
+    {
+        "name": "Jordan IV",
+        "price": "28,100",
+        "detail": "A pink jordan 4 , with a better look especially for girls and womens",
+        "image": "jord1.png"
+    },
+    {
+        "name": "NIke Zoom Kobe IV",
+        "price": "18,000",
+        "detail": " explore NIke Zoom Kobe IV",
+        "image": "NIke Zoom Kobe IV.png"
+    },
+    {
+        "name": "Air Jordan I",
+        "price": "14,000",
+        "detail": "A shoe made by jordan in 2022 with more features",
+        "image": "j12.png"
+    },
+    {
+        "name": "Air Jordan IV",
+        "price": "27,000",
+        "detail": "Get more respect while wearing your Air jordan ",
+        "image": "jord2.png"
+    }
+]

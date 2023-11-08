@@ -1,0 +1,37 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    background: #222;
+    color: rgb(192, 189, 189);
+    letter-spacing: 1.3px;
+    
+}
+.footer-container .head{
+    text-align: center;
+}
+.footer-container .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container .head p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: orange;
+}
+.footer-container .bottom .left{
+    display: flex;
+    align-items: center;
+}
+.footer-container .bottom .right{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container .bottom .right p{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}

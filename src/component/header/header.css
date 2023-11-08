@@ -1,0 +1,62 @@
+.h-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+    background: rgb(20, 18, 18);
+    justify-content: space-around;
+    padding-top: -1rem;
+    padding-bottom: -1rem;
+}
+
+.h-container a{
+    color: gray ;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.h-container .logo{
+    color: white;
+}
+
+.inner-width{
+    width: 100%;
+}
+.h-menu a{
+    margin: 0 15px;
+}
+.h-menu>*:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1536px){
+    .inner-width{
+        max-width: 1280px;
+        margin: auto;
+    }
+}
+@media (min-width: 640px){
+    .paddings{
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 1280px), (min-width: 768px){
+    .paddings{
+        padding: 1rem;
+    }
+}
