@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './footer.css';
 import LogoImage from '../image/logo.png'
 class Footer extends Component {
-    state = {  } 
     render() { 
         return (
             <footer>
@@ -26,4 +25,5 @@ class Footer extends Component {
     }
 }
  
+
 export default Footer;
