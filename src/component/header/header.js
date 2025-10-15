@@ -12,7 +12,7 @@ class Header extends Component {
                             <a href="/shoes">Shoes</a>
                             <a href="/Value">Our value</a>
                             <a href="/contact">Contact us</a>
-                            <a href="">Get started</a>
+                            <a href="#">Get started</a>
                             <button className='button'>Contact</button>
                         </div>
                     </div>
@@ -22,4 +22,5 @@ class Header extends Component {
     }
 }
  
+
 export default Header;
